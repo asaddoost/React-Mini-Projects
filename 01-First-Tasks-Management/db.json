@@ -1,0 +1,40 @@
+{
+  "task": [
+    {
+      "id": 1,
+      "text": "Meeting with Customers",
+      "day": "5th",
+      "reminder": false
+    },
+    {
+      "id": 2,
+      "text": "Create New Documentation",
+      "day": "6th",
+      "reminder": false
+    },
+    {
+      "text": "buying new products",
+      "day": "6th",
+      "reminder": true,
+      "id": 3
+    },
+    {
+      "text": "Go To The Picnic Company",
+      "day": "7th",
+      "reminder": false,
+      "id": 4
+    },
+    {
+      "text": "Edit My Resume",
+      "day": "8th",
+      "reminder": true,
+      "id": 5
+    },
+    {
+      "text": "Create Education Videos",
+      "day": "8th",
+      "reminder": true,
+      "id": 6
+    }
+  ]
+}
