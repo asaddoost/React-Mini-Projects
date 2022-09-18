@@ -1,0 +1,94 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  height: 100%;
+ background-color: #A1C298;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+
+}
+
+.container {
+  margin: 5rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 45vw;
+  height: auto;
+  padding: 2rem;
+  background-color: #D6CDA4;
+  box-shadow: 0 0 25px 5px rgba(0,0,0,.2);
+  border-radius: 5px;
+
+}
+
+.counter {
+  text-align: center;
+  margin: 1rem 0;
+  color: #1C6758;
+}
+
+.btn-box {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.todo {
+  width: 90%;
+  padding: .5rem;
+  background-color: #DF7861;
+  margin: .2rem 0;
+  border-radius: 5px;
+  box-shadow: 0 0 10px 5px rgba(0,0,0,.1);
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  cursor: pointer;
+  
+}
+input[type=checkbox] {
+  margin-right: 1rem;
+  cursor: pointer;
+}
+
+.btn {
+  width: 45%;
+ padding: .4rem 1rem;
+ border: none;
+ outline: none;
+ margin: .3rem;
+ border-radius: 5px;
+ cursor: pointer;
+ transition: all .2s ease-in-out;
+ 
+}
+.btn:hover {
+  transform: scale(1.04);
+}
+
+.green {
+  background-color: #367E18;
+}
+.red {
+ background-color: #E94560;
+}
+
+input[type=text] {
+  width: 90%;
+  padding: 10px;
+  border: none;
+  outline: none;
+  background-color: #EEEEEE;
+  margin: .5rem;
+  border-radius: 5px;
+}
