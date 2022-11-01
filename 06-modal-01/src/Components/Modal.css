@@ -1,0 +1,65 @@
+
+  .overlay {
+    background-color: rgba(0,0,0,0.7);
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+  .modal-container {
+    position: relative;
+    text-align: center;
+    width: 40%;
+    height: 45%;
+    background-color: rgb(234, 209, 209);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 3rem;
+    border-radius: 5px;
+    box-shadow: 0 0 25px 10px rgba(0,0,0,.2);
+  }
+
+  .btn-box {
+    width: 60%;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+
+  .bx-x {
+    font-size: 2rem;
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+
+  .bx-x:hover {
+    background-color: rgb(252, 120, 120);
+    padding: .1rem;
+    border-radius: 50%;
+  }
+
+  .red-btn {
+    background-color: #f18383;
+  }
+
+  .green-btn {
+    background-color: #7bb393;
+  }
