@@ -4,7 +4,6 @@
   }
   
   .search input {
-    background-color: white;
     border: 0;
     outline: none;
     border-radius: 5px;
@@ -14,20 +13,16 @@
     padding: 1.5rem;
     height: 30px;
     width: 300px;
+    background-color: #59b598;
   }
   
   .searchIcon {
     height: 48px;
     width: 50px;
-    background-color: white;
     display: grid;
     place-items: center;
     border-radius: 0 5px 5px 0;
     cursor: pointer;
-    transition: all .3s ease-in-out;
-  }
-  .searchIcon:hover {
-    color: #7459b5;
   }
   
   input:focus {

@@ -1,0 +1,55 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.App {
+  width: 100vw;
+  height: 100vh;
+  background: #2a5374;
+  background: linear-gradient(162deg, rgba(42,83,116,1) 0%, rgba(134,158,181,1) 100%);
+}
+
+.sidebar {
+  height: 100vh;
+  width: 250px;
+  background-color: #2f4050;
+  padding-top: 3rem;
+}
+
+.sidebarList {
+  height: auto;
+  padding: 0;
+  width: 100%;
+}
+
+.sidebarList .row {
+  width: 100%;
+  height: 50px;
+  list-style-type: none;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  padding-left: 2rem;
+  gap: 1rem;
+  color: bisque;
+}
+
+.sidebarList .row#active {
+  border-left: 2px solid bisque;
+  background-color: #293854;
+}
+
+.sidebarList .row:hover{
+  cursor: pointer;
+  background-color: #293846;
+}
+
+@media screen and (max-width: 300px) {
+  .sidebar {
+    width: 200px;
+  }
+}
