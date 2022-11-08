@@ -1,14 +1,13 @@
 import React from 'react';
 import './App.css';
-import Sidebar from './components/Sidebar';
 import 'boxicons'
-import './components/SidebarData'
+import Accordion from './components/Accordion';
 
 
 function App() {
   return (
     <div className="App">
-      <Sidebar />
+      <Accordion />
     </div>
   );
 }

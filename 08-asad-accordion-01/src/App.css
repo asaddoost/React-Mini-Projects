@@ -1,0 +1,18 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+  background: rgb(167,74,148);
+  background: linear-gradient(162deg, rgba(167,74,148,1) 0%, rgba(8,31,201,1) 100%);
+}
