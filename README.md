@@ -12,6 +12,8 @@
 [▶️ 07-search-bar-01](https://search-bar-01.netlify.app/)<br/>
 [▶️ 08-accordion-01](https://asad-accordion-01.netlify.app/)<br/>
 [▶️ 09-sidebar-01](https://asad-sidebar-01.netlify.app/)<br/>
+[▶️ 10-navbar-01](https://asad-navbar-01.netlify.app/)<br/>
+[▶️ 11-testimonial-01](https://asad-testimonial-01.netlify.app/)<br/>
 
 
 
