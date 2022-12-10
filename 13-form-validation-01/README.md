@@ -1,3 +1,31 @@
+
+
+# Sign up App
+[▶️ Live Demo](https://asad-form-validation-01.netlify.app/)<br/>
+
+- Using Bootstrap to style this website.
+- Formik and Yup library to creat and validate this App.
+- Responsive
+- ![preview img](preview.jpg)
+
+
+--------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------
+------------------------------------------------------------------
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
