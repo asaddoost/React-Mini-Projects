@@ -6,7 +6,7 @@
 - Using Bootstrap to style this website.
 - Formik and Yup library to creat and validate this App.
 - Responsive
-- ![preview img](preview.jpg)
+- ![preview img](review.jpg)
 
 
 --------------------------------
