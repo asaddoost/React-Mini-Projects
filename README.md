@@ -17,6 +17,7 @@
 [▶️Live Demo: 12-product-app-01](https://asad-product-app-01.netlify.app/)<br/>
 [▶️Live Demo: 13-form-validation-01](https://asad-form-validation-01.netlify.app/)<br/>
 [▶️Live Demo: 14-weatherApp-01](https://asad-weatherapp-01.netlify.app/)<br/>
+[▶️Live Demo: 15-shopping-card-01](https://asad-shopping-card-01.netlify.app/)<br/>
 
 
 
