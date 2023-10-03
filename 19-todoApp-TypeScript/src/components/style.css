@@ -1,0 +1,173 @@
+ 
+ .input {
+     position: relative;
+     width: 95%;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+
+ .input_box {
+    width: 100%;
+    border-radius: 50px;
+    border: 1px solid transparent;
+    outline: none;
+    padding: 20px 30px;
+    font-size: 1.1rem;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.043); 
+    transition: all .2s ease;
+}
+
+ .input_box:hover {
+    border: 1px solid #2aec92;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.073)
+ }
+
+ .input_box:focus {
+    box-shadow: 0 0 10px 1000px rgba(0,0,0,.4);
+ }
+
+ .input_submit {
+    position: absolute;
+    right: 0px;
+    width: 50px;
+    height:50px;
+    margin: 12px;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all .2s;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.073);
+    background-color: #8084f9;
+    transition: all .2s ease}
+
+ .input_submit:active {
+    transform: scale(0.4);
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.053);
+
+ }
+ .container {
+   display: flex;
+   width: 95%;
+   margin-top: 1.5rem;
+   justify-content: space-between;
+   align-items: flex-start;
+   
+   
+ }
+
+
+ .todos {
+   display: flex;
+   width: 47.5%;
+   flex-direction: column;
+   padding: 15px;
+   border-radius: 5px;
+   background-color: #47ac8f;
+ }
+
+ .todos_heading {
+   font-size: 30px;
+   text-align: center;
+   color: white;
+ }
+
+ .remove {
+   background-color: #5a5959;
+ }
+
+  .todos_single {
+   display: flex;
+   border-radius: 5px;
+   padding: 20px;
+   margin-top: 15px;
+   /* From https://css.glass */
+   background: rgba(176, 159, 251, 0.19);
+   border-radius: 16px;
+   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+   backdrop-filter: blur(13px);
+   -webkit-backdrop-filter: blur(13px);
+   border: 1px solid rgba(176, 159, 251, 0.52);
+   transition: all .3s ease;
+
+ }
+
+.todos_single:hover {
+   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+   transform: scale(1.03);
+}
+
+ .single_todo_text {
+   flex: 1;
+   padding: 5px;
+   border: none;
+   font-size: 20px;
+ }
+
+ .single_todo_text-edit {
+    flex: 1;
+   outline: none;
+   border: none;
+   border-radius: 5px;
+   padding-left: 10px;
+ }
+
+ .icon {
+   margin: 5px;
+   
+   font-size: 1.5rem;
+   cursor: pointer;
+   transition: all .3s ease;
+ }
+
+ .icon:hover {
+   color: #4c4cf7;
+ }
+
+
+ .dragActive {
+   background-color: #0db787;
+ }
+
+ .dragComplete {
+   background-color: #b93131;
+ }
+
+ .drag {
+   box-shadow: 0 0 20px black;
+ }
+
+
+ @media screen and (max-width:1100px) {
+   .todos {
+      width: 45%;
+   }
+ }
+       
+    
+
+
+ @media screen and (max-width:700px) {
+   .input {
+      width: 95%
+   }
+   .todos {
+      width: 95%;
+      margin-bottom: 10px;
+   }
+
+  .container {
+   width: 95%;
+   flex-direction:column
+
+  }
+
+
+
+  
+
+ }
